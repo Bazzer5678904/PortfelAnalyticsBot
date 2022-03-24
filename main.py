@@ -39,7 +39,7 @@ def add_portfolio(user_id: int, ticker: str, count: int):
     conn.commit()
 
 
-token = '5245395395:AAHJbi6bapT1H8Xehfsq12wYzehObqePnng'
+token = 'token'
 bot = telebot.TeleBot(token)
 
 
